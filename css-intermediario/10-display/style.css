@@ -1,0 +1,26 @@
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.em-bloco li{
+  background-color: aqua;
+  margin-bottom: 10px;
+  width: 100px;
+}
+
+.em-linha li{
+  display: inline;
+  background-color: aqua;
+}
+
+.em-linha-em-bloco li {
+  display: inline-block;
+  background-color: aqua;
+  padding: 20px;
+}
+
+.esconder {
+  display: none;
+}

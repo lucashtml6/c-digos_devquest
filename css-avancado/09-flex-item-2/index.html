@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex Items - Parte II</title>
+
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <h1>Flex Items - Parte II</h1>
+
+  <section>
+    <h2>Flex</h2>
+
+    <h3>flex: 0</h3>
+
+    <div class="container flex-exemplo">
+      <div class="item flex-0">Lorem ipsum.</div>
+      <div class="item flex-0">Lorem ipsum dolor</div>
+      <div class="item flex-0">Lorem ipsum dolor sit amet</div>
+    </div>
+
+    <h3>flex: 1</h3>
+
+    <div class="container flex-exemplo">
+      <div class="item flex-1">Lorem ipsum.</div>
+      <div class="item flex-1">Lorem ipsum dolor</div>
+      <div class="item flex-1">Lorem ipsum dolor sit amet</div>
+    </div>
+
+    <h3>flex: 0 1 100px (no item 1) </h3>
+
+    <div class="container flex-exemplo">
+      <div class="item flex-100">Lorem ipsum.</div>
+      <div class="item flex-0">Lorem ipsum dolor</div>
+      <div class="item flex-0">Lorem ipsum dolor sit amet</div>
+    </div>
+
+    <h3>flex: 0 1 100px (em todos) + wrap </h3>
+
+    <div class="container flex-exemplo wrap">
+      <div class="item flex-100">Lorem ipsum.</div>
+      <div class="item flex-100">Lorem ipsum dolor</div>
+      <div class="item flex-100">Lorem ipsum dolor sit amet</div>
+    </div>
+  </section> 
+  
+  <br/>
+  <hr>
+
+  <section>
+    <h2>Order</h2>
+
+    <div class="container order">
+      <div class="item item1">1</div>
+      <div class="item item2">2</div>
+      <div class="item item3">3</div>
+      <div class="item item4">4</div>
+      <div class="item item5">5</div>
+    </div>
+    
+  </section>
+
+  <br/>
+  <hr>
+
+  <section>
+    <h2>Align Self</h2>
+
+    <h3>Auto</h3>
+
+    <div class="container align-self auto">
+      <div class="item item1">1</div>
+      <div class="item item2">Lorem ipsum dolor sit, amet consectetur</div>
+      <div class="item item3">3</div>
+    </div>
+    
+    <h3>Flex-start</h3>
+
+    <div class="container align-self flex-start">
+      <div class="item item1">1</div>
+      <div class="item item2">Lorem ipsum dolor sit, amet consectetur</div>
+      <div class="item item3">3</div>
+    </div>
+
+    <h3>Flex-end</h3>
+
+    <div class="container align-self flex-end">
+      <div class="item item1">1</div>
+      <div class="item item2">Lorem ipsum dolor sit, amet consectetur</div>
+      <div class="item item3">3</div>
+    </div>
+
+    <h3>Center</h3>
+
+    <div class="container align-self center">
+      <div class="item item1">1</div>
+      <div class="item item2">Lorem ipsum dolor sit, amet consectetur</div>
+      <div class="item item3">3</div>
+    </div>
+
+    <h3>Stretch</h3>
+
+    <div class="container align-self stretch">
+      <div class="item item1">1</div>
+      <div class="item item2">Lorem ipsum dolor sit, amet consectetur</div>
+      <div class="item item3">3</div>
+    </div>
+  </section>
+
+</body>
+
+</html>

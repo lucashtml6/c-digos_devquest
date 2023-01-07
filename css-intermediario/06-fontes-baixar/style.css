@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Montebello';
+  src: url(./fonts/Montebello-Regular.ttf), 
+  url(./fonts/Montebello-Light.otf), 
+  url(fonts/Montebello-Bold.otf) ;
+}
+
+p {
+  font-family: 'm ';
+}

@@ -1,0 +1,19 @@
+div {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border: 10px solid black;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.sem-border-box {
+  background-color: aqua;
+}
+
+.com-border-box {
+  background-color: blueviolet;
+  box-sizing: border-box;
+}
+
+

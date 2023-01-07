@@ -1,0 +1,9 @@
+
+div {
+  background-color: black;
+  height: 540px;
+}
+
+.bg {
+  background: #000 url('images/cat.png') no-repeat top right fixed;
+}

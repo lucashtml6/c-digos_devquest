@@ -1,0 +1,24 @@
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  margin: 20px;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+}
+.container {
+  background-color: #ccc;
+  display: flex;
+  border: solid 1px black;
+}
+
+.container.direction {
+  flex-direction: column;
+}
+
+.container.wrap {
+  height: 100vh;
+  flex-direction: column;
+  flex-wrap: wrap;
+}

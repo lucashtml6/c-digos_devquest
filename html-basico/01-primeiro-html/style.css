@@ -1,0 +1,11 @@
+body {
+    font-size: 1em; /* 16px */
+}
+
+.pai {
+    font-size: 2em; /* 2x16 = 32px*/
+}
+
+.filha {
+    font-size: 3em; /* 3x32 = 96px*/
+}

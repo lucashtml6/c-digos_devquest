@@ -1,0 +1,26 @@
+img {
+  width: 200px;
+  transition: all .3s;
+}
+
+.scale:hover {
+  /* transform: scaleX(2);
+  transform: scaleY(3);
+
+  Dessa maneira, o scaleY irá sobrepor o scaleX, então para funcionar é necessário: transform: scaleX(2) scaleY(3);
+  */
+  transform: scale(2, 3);
+}
+
+.rotate:hover {
+  transform: rotate(-45deg);
+}
+
+.translate:hover {
+  transform: translate(2em, 2em);
+  /* transform: translate(3em, 2em); */
+}
+
+.skew:hover {
+  transform: skew(20deg);
+}

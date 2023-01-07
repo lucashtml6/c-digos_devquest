@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  max-width: 400px;
+  border: 1px solid #ccc;
+}
+
+.item {
+  background-color: purple;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 600;
+  width: 100px;
+  margin: 10px;
+}
+

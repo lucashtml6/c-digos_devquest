@@ -1,0 +1,40 @@
+.verde-claro {
+  background-color: aqua;
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+.azul {
+  background-color: blue;
+  grid-column: 3 / span 3;
+}
+
+.rosa {
+  background-color: rgb(255, 48, 83);
+  grid-row: 3 / span 1;
+  grid-column: 1 / 3;
+}
+
+.laranja-escuro {
+  background-color: orange;
+  grid-column: 3 / span 2;
+  grid-row: 2 / span 2;
+}
+
+.verde-escuro {
+  background-color: green;
+  grid-column: 5 / span 1;
+  grid-row: 2 / 3;
+}
+
+.marrom {
+  background-color: brown;
+  grid-column: 5 / 6;
+  grid-row: 3 / 4;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: repeat(3, 50px);
+}

@@ -1,0 +1,45 @@
+/* grow */
+.grow-1 {
+  flex-grow: 1;
+}
+
+.grow-2 {
+  flex-grow: 2;
+}
+
+.grow-3 {
+  flex-grow: 3;
+}
+/* grow */
+
+/* basis */
+.basis-0 {
+  flex-basis: 0;
+}
+
+.basis-100 {
+  flex-basis: 100px;
+}
+
+.basis-200 {
+  flex-basis: 200px;
+}
+
+.basis-300 {
+  flex-basis: 300px;
+}
+/* basis */
+
+/* shrink */
+.shrink-0 {
+  flex-shrink: 0;
+}
+
+.shrink-1 {
+  flex-shrink: 1;
+}
+
+.shrink .item {
+  width: 200px;
+}
+/* shrink */

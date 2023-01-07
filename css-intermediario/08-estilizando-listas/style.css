@@ -1,0 +1,9 @@
+
+
+ul {
+  list-style: square url(icone.png);
+}
+
+ul li {
+  border: .5px solid black;
+}

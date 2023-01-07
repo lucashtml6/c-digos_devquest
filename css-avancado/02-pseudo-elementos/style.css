@@ -1,0 +1,34 @@
+.first-letter::first-letter {
+  color: aqua;
+  font-size: 2em;
+}
+
+.first-line::first-line {
+  color: blueviolet;
+}
+
+.before::before {
+  content: "";
+  display: inline-block;
+  background: url(logo.jpg) center center no-repeat;
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+}
+
+.after {
+  text-align: center;
+}
+.after::after {
+  content: "";
+  margin: 0 auto;
+  display: block;
+  width: 80px;
+  height: 2px;
+  background-color: black;
+}
+
+.letra-capitular::first-letter {
+  color: red;
+  font-size: 20px;
+}

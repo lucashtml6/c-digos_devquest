@@ -1,0 +1,30 @@
+.left, .right {
+  width: 200px;
+  height: 200px;
+}
+
+.left {
+  float: left;
+  background-color: aquamarine;
+}
+
+.right {
+  float: right;
+  background-color: blueviolet;
+}
+
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+p {
+  font-size: 25px;
+}
+
+img {
+  float: right;
+  width: 200px;
+  margin: 0 15px 15px 0;
+}

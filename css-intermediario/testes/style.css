@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  height: 250px;
+  background-color: rgb(216, 216, 216);
+}
+
+.filha {
+  background-color: aquamarine;
+  height: 150px;
+  max-width: 800px;
+  margin: 0 auto;
+}

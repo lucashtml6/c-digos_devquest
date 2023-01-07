@@ -1,0 +1,16 @@
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+}
+
+
+a:hover {
+	background-color: brown;
+}
+
+a:active {
+	color: green;
+}

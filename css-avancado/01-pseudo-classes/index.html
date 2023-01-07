@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudo-classes</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Pseudo-classes</h1>
+
+  <h2>First-child</h2>
+
+  <div class="div-um">
+    <p>Esse é o primeiro parágrafo!</p>
+    <p>Esse é o segundo parágrafo!</p>
+  </div>
+
+  <div class="div-dois">
+    <p>Primeiro</p>
+    <p>Segundo</p>
+  </div>
+
+  <h2>Last-child</h2>
+
+  <div>
+    <!-- primeira div -->
+    <p>Esse é o primeiro parágrafo!</p>
+    <p>Esse é o último parágrafo!</p>
+
+  </div>
+
+  <div>
+    <!-- segunda div -->
+    <p>Primeiro</p>
+    <p>último</p>
+  </div>
+
+  <h1>Not</h1>
+
+  <div>
+    <p>Não tenho a classe "padrão".</p>
+    <p class="padrao">Tenho a classe "padrão".</p>
+    <p>Não tenho a classe "padrão".</p>
+    <p>Não tenho a classe "padrão".</p>
+  </div>
+
+  <h1>Nth-child</h1>
+
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 5</li>
+    <li>Item 6</li>
+  </ul>
+
+  <h1>Nth-last-child</h1>
+
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 5</li>
+    <li>Item 6</li>
+  </ul>
+
+  <h1>Only-child</h1>
+
+  <div>
+    <p>Eu não sou filho único, eu tenho um irmão!</p>
+
+    <p>Eu também não sou filho único, meu irmão é o parágrafo de cima</p>
+  </div>
+
+  <div>
+    <p>Eu sou filho único, não tenho nenhum irmão!</p>
+  </div>
+</body>
+
+
+</html>

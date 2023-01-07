@@ -1,0 +1,12 @@
+#meu-paragrafo {
+  background-color: blueviolet;
+}
+
+.container-especificidade p { 
+  background-color: aqua;
+}
+
+p {
+  background-color: lightslategray;
+}
+
