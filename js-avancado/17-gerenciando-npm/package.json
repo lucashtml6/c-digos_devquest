@@ -1,0 +1,18 @@
+{
+  "name": "17-gerenciando-npm",
+  "version": "1.0.0",
+  "description": "teste usando o gerenciador de pacotes npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "npm"
+  ],
+  "author": "Lucas Souza e Silva",
+  "license": "ISC",
+  "dependencies": {
+    "kind-of": "^6.0.3"
+  }
+}
